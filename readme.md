@@ -1,6 +1,12 @@
-### Text to IPA Expert System
-To run, just use (reset) and (run) commands. The program only accepts alphabetic characters as the input text. Enter any non-alphabetic character to stop running. 
+## Text to IPA Expert System
+This is a knowledge base and expert system in CLIPS that transcribes English text to its Standard American English phonetic transcription in IPA. The knowledge base consists of features for all possible phonemes in SAE as well as all letters of the alphabet. The system applies rules based on these features and their environments. There are orthographical rules to obtain a transcription and phonological rules to make the transcription more representative of natural speech.
 
+## Installation
+This project is compatible with CLIPS version 6.4.  
+
+In the CLIPS IDE, load constructs from TextToIPA.CLP. To run, use (reset) and (run) commands in the IDE. The program only accepts alphabetic characters as the input text. Enter any non-alphabetic character to stop running. 
+
+## Validation
 To check for accuracy of individual words, most dictionaries give transcriptions. Cambridge dictionary’s transcriptions are consistent with IPA. 
 https://dictionary.cambridge.org/
 
